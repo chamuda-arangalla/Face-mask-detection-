@@ -57,7 +57,7 @@ aug = ImageDataGenerator(
     fill_mode="nearest"
 )
 
-# Load VGG16 fully connected layers
+# Load VGG16 fully connected layer
 base_model = VGG16(weights="imagenet", include_top=False, input_shape=(224, 224, 3))
 for layer in base_model.layers:
     layer.trainable = False
