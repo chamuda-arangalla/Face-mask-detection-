@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 data_dir = "Dataset"  
 categories = ['with_mask', 'without_mask']
 
-#  label lists
+#  label
 data = []
 labels = []
 
