@@ -19,7 +19,7 @@ categories = ['with_mask', 'without_mask']
 data = []
 labels = []
 
-#  images
+#
 for category in categories:
     path = os.path.join(data_dir, category)
     label = categories.index(category)
