@@ -62,7 +62,7 @@ base_model = VGG16(weights="imagenet", include_top=False, input_shape=(224, 224,
 for layer in base_model.layers:
     layer.trainable = False
 
-#  custom layers
+#  custom layer
 x = base_model.output
 x = Flatten()(x)
 x = Dense(128, activation="relu")(x)
