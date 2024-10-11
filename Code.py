@@ -35,7 +35,7 @@ for category in categories:
 data = np.array(data)
 labels = np.array(labels)
 
-# preprocessin
+# preprocessing
 data = preprocess_input(data)
 
 # One-hot labels
